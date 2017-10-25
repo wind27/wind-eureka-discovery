@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.web.*;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.context.annotation.Import;
 
-@Import({ DispatcherServletAutoConfiguration.class, EmbeddedServletContainerAutoConfiguration.class,
-		ErrorMvcAutoConfiguration.class, HttpEncodingAutoConfiguration.class,
-		HttpMessageConvertersAutoConfiguration.class, JacksonAutoConfiguration.class, MultipartAutoConfiguration.class,
-		ServerPropertiesAutoConfiguration.class, WebMvcAutoConfiguration.class })
+//@Import({ DispatcherServletAutoConfiguration.class, EmbeddedServletContainerAutoConfiguration.class,
+//		ErrorMvcAutoConfiguration.class, HttpEncodingAutoConfiguration.class,
+//		HttpMessageConvertersAutoConfiguration.class, JacksonAutoConfiguration.class, MultipartAutoConfiguration.class,
+//		ServerPropertiesAutoConfiguration.class, WebMvcAutoConfiguration.class })
 @EnableEurekaServer
 @SpringBootApplication
 public class DiscoveryApplicationMasterMain {
